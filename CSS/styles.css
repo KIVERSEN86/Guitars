@@ -50,20 +50,20 @@ footer {
   text-align: center;
 }
 
-.background {
-  background-image: url(../images/home-header.jpg);
+/* Home page */
+.welcome {
+  background-image: url(../Images/home-header.jpg);
   background-size: cover;
-  min-height: 500px;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
-.strumming {
-  border-radius: 50px 50px 50px 50px;
+.selling-points__images {
+  border-radius: 100px;
 }
 
-.bob {
-  border-radius: 50%;
-}
-
-.sally {
+.review__images {
   border-radius: 50%;
 }
