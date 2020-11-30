@@ -49,3 +49,21 @@ header a {
 footer {
   text-align: center;
 }
+
+.background {
+  background-image: url(../images/home-header.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+
+.strumming {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.bob {
+  border-radius: 50%;
+}
+
+.sally {
+  border-radius: 50%;
+}
