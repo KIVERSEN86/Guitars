@@ -14,25 +14,30 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="Guitars.html">Guitars</a></li>
-              <li><a href="Contact.html">Contact</a></li>
+              <li><a href="Contact.html" class="current">Contact</a></li>
             </ul>
           </nav>
         </header>
         <main>
             <h1>Contact
             </h1>
-            <label>Full name</label><input type="text" name="fullname">
-            <label>Email</label> <input type="text" name="email">
-            <label for="guitar">Guitar:</label> <select name="guitars" id="guitars">
-              <option value="adirondack red">Adirondack Red</option>
-              <option value="adirondack red">Adirondack Red</option>
-              <option value="adirondack red">Adirondack Red</option>
-              <option value="adirondack red">Adirondack Red</option>
+            <form method="POST">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+            <label for="guitars">Guitar:</label>
+            <select id="guitars" name="Guitar">
+              <option value="Adirondack Red">Adirondack Red</option>
+              <option value="Adirondack Blue">Adirondack Blue</option>
+              <option value="Adirondack Green">Adirondack Green</option>
                </select>
-               <input type="checkbox" name="signup" value="signup" id="signup"><label for="signup">Sign up for email updates.</label>
-               <label>Message</label><textarea id="message" name="message" rows="5" cols="30"></textarea>
-               <a href="contact.html" class="cta">Send Now</a>
-
+               <input type="checkbox" id="email-updates" name="email-updates" />
+               <label for="email-updates">Sign up for email updates.</label>
+               <label for="message">Message</label>
+               <textarea id="message" name="message"></textarea>
+              <input type="submit" value="Send Now" class="cta" />
+            </form>
         </main>
         <footer>Copyright &copy;</footer>
     </body>
