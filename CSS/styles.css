@@ -44,7 +44,21 @@ header a {
 .cta {
   background-color: #bb0000;
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 80px;
+  border-radius: 5px;
+}
+
+.cta-small {
+  padding: 8px 30px;
+  font-size: 0.8em;
+}
+
+.cta-sale {
+  background-color: #127300;
+  padding: 8px 30px;
+  font-size: 0.8em;
 }
 
 .current {
@@ -55,12 +69,8 @@ header a {
   background-color: #e8e8e8;
 }
 
-.featured--products {
+.featured__products {
   background-color: #fbfbfb;
-}
-
-.cta-sale {
-  background-color: #127300;
 }
 
 footer {
@@ -100,6 +110,10 @@ nav ul {
 
 nav li {
   display: inline;
+}
+
+nav a {
+  padding: 10px;
 }
 
 /* Links */
