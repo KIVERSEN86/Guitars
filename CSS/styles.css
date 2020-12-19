@@ -82,9 +82,17 @@ footer {
   background-image: url(../Images/home-header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 70vh;
   background-position-x: right;
   background-position-y: bottom;
+  min-height: 70vh;
+  position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 100px;
 }
 
 .selling-points__images {
@@ -104,6 +112,11 @@ textarea {
 }
 
 /* Nav */
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 nav ul {
   padding: 0px;
 }
