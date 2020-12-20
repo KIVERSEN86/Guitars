@@ -31,6 +31,11 @@ h2,
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
 header,
 footer {
   background-color: #202020;
@@ -95,6 +100,19 @@ footer {
   left: 100px;
 }
 
+.selling-points {
+  margin: 50px auto;
+}
+
+.selling-points {
+  display: flex;
+  max-width: 1000px;
+}
+
+.selling-points > * {
+  flex: 1;
+}
+
 .selling-points__images {
   border-radius: 100px;
 }
@@ -112,9 +130,8 @@ textarea {
 }
 
 /* Nav */
-.container {
-  display: flex;
-  justify-content: flex-start;
+nav {
+  margin-left: 25px;
 }
 
 nav ul {
